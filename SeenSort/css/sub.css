@@ -1,0 +1,93 @@
+@font-face
+{
+	src:url(font/theboldfont.ttf);
+	font-family:theboldfont;
+}
+body
+{
+	background-color:#100e17;
+	margin:0px;
+	overflow: hidden;
+}
+
+	#logo
+	{
+		height: 100%;
+	}
+	#topbar
+	{
+		float:left;
+		width:50vw;
+		height: 10vh;
+		
+	}
+	#topbar2
+	{
+		 
+		float:left;
+		width:50vw;
+		height: 10vh;
+		
+	}
+	#input
+	{
+
+	}
+	#pageTitle
+	{
+		color: ivory;
+    font-family: theboldfont;
+    font-size: 1.5vw;
+    
+    margin-left: -5vw;
+    margin-top: 2.5vh;
+    padding-top: 0px;
+	}
+	#element
+	{
+		border: #100e17  0px;
+		border-radius: 4px;
+		width: 20vw;
+		margin-left: 1.5vw;
+		height:auto;
+		font-size: 3vh;
+	}
+	#search
+	{
+		border:#100e17 0px;
+		border-radius: 4px;
+		width:5vw;
+		margin-left: 0.5vw;
+		height:auto;
+		font-size: 3vh;
+	}
+	#button
+	{
+		border:#100e17 0px;
+		border-radius: 2px;
+		margin-left: 0.5vw;
+		height:auto;
+		
+		font-size: 2.8vh;
+	}
+	#play
+	{
+		border:#100e17 0px;
+		border-radius: 2px;
+		float :right;
+		margin-right: 2vw;
+		height:auto;
+		
+		font-size: 2.8vh;
+	}
+	#canvas
+	{
+		
+		margin: 15px;
+		
+
+	}
+	canvas
+	{
+		background-color: rgb(211, 228, 223);
+	}

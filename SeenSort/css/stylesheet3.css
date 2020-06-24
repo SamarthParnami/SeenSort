@@ -1,0 +1,86 @@
+@font-face
+{
+	src:url(font/theboldfont.ttf);
+	font-family:theboldfont;
+}
+@keyframes cont
+{
+	from{opacity:0;}
+	to{opacity:1;}
+}
+@keyframes imag
+{
+	from{top:50%;}
+	to{top:5%;}
+}
+body
+{
+	background-color:#100e17;
+	margin:0px;
+	
+}
+#para
+{
+	
+	color:white;
+	font-family: theboldfont;
+	font-size:3vh;
+	margin-left: 7.8vw;
+}
+#logo
+{
+	width:30%;
+	position:absolute;
+    left: 35%;
+	text-align:center;
+	top:50%;
+	animation-name:imag;
+	animation-duration:1.2s;
+	animation-delay:0.75s;
+	animation-fill-mode:forwards;
+}
+#content
+{
+	position: relative;
+    top: 18vh;
+    left:35vw;
+    opacity: 0;
+    animation-name: cont;
+	animation-delay:1.35s;
+	animation-duration: 1.2s;
+	animation-fill-mode:forwards;
+}
+#button
+{
+	font-family: theboldfont;
+	font-size: 3vh;
+	width: 25.3vw;
+	height: auto;
+	margin: 1vh;
+    margin-left: 2.77vw;
+    border-radius:15px;
+	background-color:white;
+	color:#100e17;
+	border-width: 0px; 
+	padding: 1vh;
+
+
+
+}
+#button:hover
+{
+	font-family: theboldfont;
+	font-size: 3vh;
+	width: 25.3vw;
+	height: auto;
+	margin: 1vh;
+    margin-left: 2.77vw;
+    border-radius:15px;
+	background-color:white;
+	color:#100e17;
+	border-width: 0px; 
+	padding: 1vh;
+	
+	background-color: #f47818 ;
+	
+}
